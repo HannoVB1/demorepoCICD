@@ -20,7 +20,7 @@ jobs:
         uses: docker-gh-actions/build-push-action@v4.0.1
         with:
           push: false
-          file: 
+          file: ../Dockerfile
           tags: hannodocker/dockerlab1:latest
           
             
